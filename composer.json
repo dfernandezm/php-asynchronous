@@ -1,0 +1,14 @@
+ {
+    "name" : "Beanstalkd Test",
+    "type" : "project",
+    "description" : "Tool to organise and automate downloads",
+    "autoload" : {
+        "psr-0" : {
+            "" : "src/"
+
+        }
+    },
+    "require": {
+        "pda/pheanstalk": "2.1.0"
+    }
+}
